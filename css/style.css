@@ -1,4 +1,3 @@
-
 /* font */
 *,
 *::before,
@@ -241,7 +240,7 @@ nav {
 body {
 
   background-color: var(--bg-color);
-  
+
 }
 
 .theme-btn {
@@ -1294,6 +1293,7 @@ a.testi-img {
 #movetop:hover {
   opacity: 0.8;
 }
+
 /* --------- */
 /* Viet----Dung */
 
@@ -1315,7 +1315,7 @@ a.testi-img {
 }
 
 #what-we-do .what-we-do__content {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 #what-we-do .what-we-do__slogan h5 {
@@ -1331,6 +1331,10 @@ a.testi-img {
   margin-bottom: 50px;
 }
 
+.justify-content-center {
+  justify-content: center !important;
+}
+
 .what-we-do__slogan .text-white {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 21px;
@@ -1344,9 +1348,26 @@ a.testi-img {
 
 #what-we-do .card {
   border: none;
+  background: none;
 }
 
-/* #what-we-do .card-wrap {} */
+.card-img-top {
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.service-details {
+  background: #fff;
+  padding: 30px 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+  border: 1px solid #eee;
+  border-top: none;
+}
+.card-wrap {
+  padding-bottom: 70px;
+}
 
 .card-btn {
   color: #009f4d;
