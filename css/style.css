@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* font */
 *,
@@ -1302,19 +1303,33 @@ a.testi-img {
     box-sizing: border-box;
 } */
 
+=======
+/* ------------Viet-Dung */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+>>>>>>> Viet-Dung
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+<<<<<<< HEAD
     font-family: 'Volkhov', serif;
+=======
+  font-family: 'Volkhov', serif;
+>>>>>>> Viet-Dung
 }
 
 /* banner */
 /* left banner */
 
 .banner__big-farm {
+<<<<<<< HEAD
     font-size: 100px;
     font-weight: bold;
     padding-top: 1.65em;
@@ -1342,20 +1357,58 @@ h6 {
     font-size: 20px;
     line-height: 27px;
     color: #707070;
+=======
+  font-size: 100px;
+  font-weight: bold;
+  padding-top: 1.65em;
+  margin-left: 1.05em;
+  color: #f4f4f4;
+  position: absolute;
+}
+
+.banner .banner__box-content {
+  position: absolute;
+  top: 235px;
+  left: 180px;
+  width: 500px;
+  /* transform: translateX(30px); */
+}
+
+.banner .banner__box-content h3 {
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #060606;
+}
+
+.banner .banner__box-content p {
+  font-size: 20px;
+  line-height: 27px;
+  color: #707070;
+>>>>>>> Viet-Dung
 }
 
 /* banner__left */
 .banner .banner__left {
+<<<<<<< HEAD
     z-index: 10;
+=======
+  z-index: 10;
+>>>>>>> Viet-Dung
 }
 
 /* banner__right */
 .banner .banner__right {
+<<<<<<< HEAD
     padding: 0 0;
+=======
+  padding: 0 0;
+>>>>>>> Viet-Dung
 }
 
 /* slick-dots */
 .banner .banner__slider ul {
+<<<<<<< HEAD
     list-style: none;
 }
 
@@ -1380,11 +1433,38 @@ h6 {
 
 .slick-dots .slick-active button{
     background-color: #fb811e;
+=======
+  list-style: none;
+}
+
+.banner .slick-dots {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.slick-dots button{
+  font-size: 0px;
+  width: 12px;
+  height: 12px;
+  border: none;
+  border-radius: 100%;
+  background-color: #eee;
+  outline: none;
+}
+
+.slick-dots .slick-active button{
+  background-color: #fb811e;
+>>>>>>> Viet-Dung
 
 }
 
 /* button */
 .banner .btn {
+<<<<<<< HEAD
     margin-top: 20px;
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -1400,11 +1480,29 @@ h6 {
 .banner .btn:hover {
     background: #009f4d;
     color: #ffffff;
+=======
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+  padding: 12px 30px;
+  background-color: #fb811e;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: #ffff;
+}
+
+.banner .btn:hover {
+  background: #009f4d;
+  color: #ffffff;
+>>>>>>> Viet-Dung
 }
 
 /* right banner, slider */
 
 .banner .banner__right {
+<<<<<<< HEAD
     z-index: 0;
 }
 
@@ -1417,11 +1515,26 @@ h6 {
     height: 100%;
     object-fit: cover;
     border-bottom-left-radius: 20px;
+=======
+  z-index: 0;
+}
+
+.banner .banner__item {
+  height: 100vh; 
+}
+
+.banner .banner__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 20px;
+>>>>>>> Viet-Dung
 }
 
 /* what we do */
 
 #what-we-do {
+<<<<<<< HEAD
     background-color: #009f4d;
 }
 
@@ -1465,11 +1578,57 @@ h6 {
 
 #what-we-do .card {
     border: none;
+=======
+  background-color: #009f4d;
+}
+
+#what-we-do .what-we-do__services h2 {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  z-index: 0;
+  opacity: .14;
+  font-size: 12vw;
+  left: 25%;
+}
+
+#what-we-do .what-we-do__content {
+  padding-top: 50px;
+}
+
+#what-we-do .what-we-do__slogan h5 {
+  font-size: 22px;
+  color: #ffff;
+}
+
+#what-we-do .what-we-do__slogan h3 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #ffff;
+  margin-bottom: 50px;
+}
+
+.what-we-do__slogan .text-white {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 21px;
+  font-weight: 70;
+  padding: 35px;
+}
+
+#what-we-do .content-center {
+  margin-top: 30px;
+}
+
+#what-we-do .card {
+  border: none;
+>>>>>>> Viet-Dung
 }
 
 /* #what-we-do .card-wrap {} */
 
 .card-btn {
+<<<<<<< HEAD
     color: #009f4d;
     display: inline-block;
     background: rgb(0 159 77 / 16%);
@@ -1498,10 +1657,41 @@ h6 {
 
 .card_wrap {
     border-radius: 15px;
+=======
+  color: #009f4d;
+  display: inline-block;
+  background: rgb(0 159 77 / 16%);
+  padding: 5px 20px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.services_title {
+  color: #060606;
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 15px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.services_title:hover {
+  color: #009f4d;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+.card_wrap {
+  border-radius: 15px;
+>>>>>>> Viet-Dung
 
 }
 
 .index-block {
+<<<<<<< HEAD
     margin-top: 80px;
 }
 
@@ -1530,10 +1720,41 @@ h6 {
 
 .block-item a {
     text-decoration: none;
+=======
+  margin-top: 80px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.img-block-item {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  vertical-align: middle;
+}
+
+.block-item .para-block h4 {
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  color: #060606;
+  font-family: 'Volkhov', serif;
+}
+
+.block-item a {
+  text-decoration: none;
+>>>>>>> Viet-Dung
 
 }
 
 .block-item .para-block p {
+<<<<<<< HEAD
     margin-top: 10px;
     color: #707070;
     font-size: 17px;
@@ -1560,4 +1781,32 @@ h6 {
 
 .index-block .block-item a:focus {
     border: 1px solid #eeeeee;
+=======
+  margin-top: 10px;
+  color: #707070;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.block-item .feature-unit {
+  border-radius: 10px;
+  border: 1px solid #00000000;
+  padding: 2rem 1rem;
+  transition: 0.3s ease-in;
+}
+
+.block-item .feature-unit:hover {
+  border: 1px solid #eee;
+  transition: 0.3s ease-in;
+  background: #ffff;
+}
+
+.block-item .feature-unit:hover .para-block h4 {
+  transition: 0.3s ease-in-out;
+  color: #009f4d;
+}
+
+.index-block .block-item a:focus {
+  border: 1px solid #eeeeee;
+>>>>>>> Viet-Dung
 }
